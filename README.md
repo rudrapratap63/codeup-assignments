@@ -1,29 +1,30 @@
 # codeup-assignments
 
-# Task 1: Expand Characters in a String
+# Task 2: Character Frequency in a String
 
 ## Description
-Given a string containing characters followed by digits, expand each character by repeating it according to the digit that follows.
+Write a Java program that takes a string input and outputs the frequency of each character in a compressed form.
 
 ## Examples
 
 ### Example 1
-- **Input**: `"a1b4c3"`
-- **Output**: `"abbbbccc"`
-- **Explanation**:
-  - The character 'a' is followed by 1, so it appears once.
-  - The character 'b' is followed by 4, so it appears four times: `"bbbb"`.
-  - The character 'c' is followed by 3, so it appears three times: `"ccc"`.
-  - The final output is `"abbbbccc"`.
+- **Input:** `"aabcccdeee"`
+- **Output:** `"a2b1c3d1e3"`
+- **Explanation:**
+  - The character 'a' appears 2 times.
+  - The character 'b' appears 1 time.
+  - The character 'c' appears 3 times.
+  - The character 'd' appears 1 time.
+  - The character 'e' appears 3 times.
+  - Concatenating these frequencies results in `"a2b1c3d1e3"`.
 
 ### Example 2
-- **Input**: `"a1c2"`
-- **Output**: `"acc"`
-- **Explanation**:
-  - The character 'a' is followed by 1, so it appears once.
-  - The character 'c' is followed by 2, so it appears twice: `"cc"`.
-  - The final output is `"acc"`.
+- **Input:** `"aaaaaaaaaaaa"`
+- **Output:** `"a12"`
+- **Explanation:**
+  - The character 'a' appears 12 times.
+  - The final output is `"a12"`.
 
 ## Constraints
-- The string will only contain lowercase letters followed by digits.
-- The input string length will be at most 100.
+- The input string will only contain lowercase English letters.
+- The input string length will be at most 1000.
