@@ -1,30 +1,23 @@
 # codeup-assignments
 
-# Task 2: Character Frequency in a String
+# Task 3: Prime Number Checker
 
 ## Description
-Write a Java program that takes a string input and outputs the frequency of each character in a compressed form.
+Write a Java program to determine if a given integer is a prime number.
 
 ## Examples
 
 ### Example 1
-- **Input:** `"aabcccdeee"`
-- **Output:** `"a2b1c3d1e3"`
-- **Explanation:**
-  - The character 'a' appears 2 times.
-  - The character 'b' appears 1 time.
-  - The character 'c' appears 3 times.
-  - The character 'd' appears 1 time.
-  - The character 'e' appears 3 times.
-  - Concatenating these frequencies results in `"a2b1c3d1e3"`.
+- **Input**: `21`
+- **Output**: `"The given number is NOT prime"`
+- **Explanation**:
+  - The number 21 is divisible by 3 and 7, hence it is not a prime number.
 
 ### Example 2
-- **Input:** `"aaaaaaaaaaaa"`
-- **Output:** `"a12"`
-- **Explanation:**
-  - The character 'a' appears 12 times.
-  - The final output is `"a12"`.
+- **Input**: `7`
+- **Output**: `"The given number is PRIME"`
+- **Explanation**:
+  - The number 7 is only divisible by 1 and 7, hence it is a prime number.
 
 ## Constraints
-- The input string will only contain lowercase English letters.
-- The input string length will be at most 1000.
+- The input will be a positive integer between 1 and \(10^6\).
