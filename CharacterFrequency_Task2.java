@@ -13,6 +13,7 @@ import java.util.Scanner;
 public class CharacterFrequency_Task2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); 
+        System.out.println("Enter a string input : ");
         String str = input.nextLine(); 
 
         StringBuilder result = new StringBuilder(); 
@@ -45,7 +46,7 @@ public class CharacterFrequency_Task2 {
         }
         result.append(currentChar);  // Append last character of input string
         result.append(count);   //Append count of last character
-        System.out.println(result.toString());
+        System.out.println("the result is : "+result.toString());
         input.close(); 
     }
 }
