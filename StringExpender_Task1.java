@@ -14,6 +14,7 @@ import java.util.Scanner;
 public class StringExpender_Task1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        System.out.println("Enter the input : ");
         String str = input.nextLine();
 
         if(str.length()>100){
@@ -40,6 +41,7 @@ public class StringExpender_Task1 {
         }
 
         // final result
+        System.out.println("The result output is : ");
         System.out.println(result.toString());
         input.close();
     }
